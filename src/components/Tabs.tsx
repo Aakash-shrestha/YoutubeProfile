@@ -92,6 +92,10 @@ const Tabs = () => {
           </button>
         ))}
       </div>
+
+      <div className="mt-4 p-4 rounded-lg">
+        {tabs.find((tab) => tab.id === activeTab)?.content}
+      </div>
     </div>
   );
 };

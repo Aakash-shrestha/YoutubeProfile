@@ -1,7 +1,5 @@
-
-
 const Contact = () => {
-  return <div>Contact</div>;
+  return <section className="ml-16">to be made</section>;
 };
 
 export default Contact;
