@@ -22,3 +22,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#tailwind dependencies
+tailwind.config.js
+
+#packages
+eslint.config.js
+package-lock.json
+package.json
+postcss.config.js
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
