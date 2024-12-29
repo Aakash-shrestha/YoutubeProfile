@@ -5,6 +5,9 @@ const Profile = () => {
   const [bannerUrl, setBannerUrl] = useState("https://placehold.co/1500x400");
   const [profileUrl, setProfileUrl] = useState("https://placehold.co/100");
 
+  {
+    /* creates a temp url of image uploaded for banner */
+  }
   const handleBannerChange = (event: any) => {
     const file = event.target.files[0]; // Get the first file from the input
     if (file) {
